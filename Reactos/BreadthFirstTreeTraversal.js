@@ -39,6 +39,8 @@ d.children.push(i, j);
 //        /\        |
 //       K L        M
 
+// Time Complexity: O(n)
+// Space Complexity: ? Thinking O(1)
 function breadthFirst(node, callback) {
   // initialize queue
   let queue = [node];
@@ -54,6 +56,8 @@ function breadthFirst(node, callback) {
         queue.push(curNode.children[i]);
       }
     }
+    // after looking at solution this could also be done
+    // queue.push(...curNode.children)
   }
 }
 
