@@ -10,3 +10,4 @@ BreadthFirst - Tried to complicate it with recursion, but knew that I needed to 
 DepthFirst - Was unable to get close to a solution.
 Stock - Brute force first try no issues. Optimized worked backwards from solution.
 Palindrome - Brute force came very quickly. Struggled with recursive solution. Still not sure why we need a return statement there.
+StringSearch - Understood problem, could only return last instance of complete needle, not first. Worked backwards from solution after 2 attempts.
