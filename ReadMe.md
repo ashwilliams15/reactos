@@ -12,3 +12,4 @@ Stock - + Brute force first try no issues. Optimized worked backwards from solut
 Palindrome - + Brute force came very quickly. Struggled with recursive solution. Still not sure why we need a return statement there.
 StringSearch - + Understood problem, could only return last instance of complete needle, not first. Worked backwards from solution after 2 attempts.
 PairSum - Basically same as twoNumSum. Implemented with pointers.
+arrayThreeSum - + Came close to a solution, but not close enough. Memo solution doesn't make sense.
