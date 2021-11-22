@@ -29,6 +29,7 @@ function arrayThreeSum(arr, target) {
 }
 
 // MEMO SOLUTION
+// Not following this solution
 function arrayThreeSum(arr, target) {
   const triplets = [];
   for (let i = 0; i < arr.length - 1; i++) {
@@ -38,7 +39,7 @@ function arrayThreeSum(arr, target) {
       if (memo[currentSum] - arr[j]) {
         triplets.push([arr[i], currentSum - arr[j], arr[j]]);
       } else {
-        memo[arr[j] === true];
+        memo[arr[j]] = true;
       }
     }
   }
@@ -73,6 +74,8 @@ function arrayThreeSum(arr, target) {
 }
 
 // SOLUTION CODE
+// Time Complexity: O(n^2)
+// Space Complexity: O(n)
 function arrayThreeSum(arr, target) {
   arr.sort((a, b) => a - b);
   const triplets = [];
