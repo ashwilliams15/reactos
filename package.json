@@ -1,0 +1,19 @@
+{
+  "name": "reactos",
+  "version": "1.0.0",
+  "description": "Redoing all REACTOs from Grace Hopper",
+  "main": "deleteme.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwilliams15/reactos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashwilliams15/reactos/issues"
+  },
+  "homepage": "https://github.com/ashwilliams15/reactos#readme"
+}
