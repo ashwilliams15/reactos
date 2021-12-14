@@ -13,5 +13,5 @@ Palindrome - + Brute force came very quickly. Struggled with recursive solution.
 StringSearch - + Understood problem, could only return last instance of complete needle, not first. Worked backwards from solution after 2 attempts.
 PairSum - Basically same as twoNumSum. Implemented with pointers.
 arrayThreeSum - + Came close to a solution, but not close enough. Memo solution doesn't make sense.
-mergeTwoLinkedLists - + Solved after lots of study
+mergeTwoLinkedLists - Solved after lots of study
 nodeDepths - Worked backwards from solution
